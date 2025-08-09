@@ -1,21 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* GitHub logo */}
+        <img 
+          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+          className="App-logo" 
+          alt="GitHub Logo" 
+          style={{ width: "150px", height: "150px" }}
+        />
+
+        {/* Your Name */}
+        <h1 style={{ marginTop: "20px" }}>Satya Sri</h1>
+
+        {/* GitHub-related link */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This project is about <strong>GitHub</strong>.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visit GitHub
         </a>
       </header>
     </div>
